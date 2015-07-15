@@ -1,0 +1,489 @@
+body, p{
+	font-family: 'Biryani', sans-serif !important;
+	/*FONTS*/
+	/*weights 100, 300, 400 & 600 both in italics too*/
+	/*font-family: 'Josefin Slab', serif;*/
+	/*weights 400 & 900 both in italics too*/
+	/*font-family: 'Playfair Display', serif;*/
+}
+
+header {
+	height: 10%;
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+	/*background-color: white;*/
+	top:0;
+	left:0;
+
+}
+
+header h1 {
+
+	font-family: 'Biryani', sans-serif;
+	font-size: 4em;
+	transition: all 0.9s ease;
+	font-weight: 600;
+	letter-spacing: 20px;
+	/*background: black;*/
+}
+
+header a {
+	text-decoration: none;
+	color: black;
+}
+
+header h4{
+
+	font-family: 'Biryani', sans-serif;
+	font-size: 0.5em;
+	font-weight: 100;
+
+}
+
+.header-container {
+	height:100%;
+	width:100%;
+	position:relative;
+}
+
+/*WHERE ALL HTML GOES ETC MAIN TEMPLATE HOLDER :)*/
+
+#app{
+	width: 100%;
+	height: 100%;
+	/*height:auto;  THIS LOOKS LIKE RIGHT WAY BUT GOTTA CHANG SHIT*/
+	/*padding-bottom:100%;*/
+	/*GREY*/
+	/*background:#ECF0F1;*/
+	/*background: #BFBDBF;*/
+	/*background: #8F8B8B;*/
+		/*background: #D8D6D9;*/
+
+	/*UGLY POO*/
+	/*background: #E7DFCB;*/
+	/*PINKY WARM*/
+	/*background: #F5DEBC;*/
+	/*background: #FFEEEF;*/
+
+	/*background: #FFF0DE;*/
+	/**background: #DFE0DB;*/
+	/*background-color: blue;*/
+	/*margin-top: 10%;*/
+	background-size:cover;
+	position: relative;
+	left:0;
+}
+
+.home {
+	background-color: white;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+	z-index: 100;
+}
+
+.homehoverstate{
+	background-color:	#2900FF !important;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+	transition: all 0.9s ease;
+}
+
+.homehovercontent{
+	/*background-color:	yellow !important;*/
+	width: 100%;
+	/* height:100%; */
+	margin-left: auto;
+	margin-right: auto;
+	/* position:relative; */
+	transition: all 0.9s ease;
+	z-index:5;
+	position:fixed;
+	height:100%;
+	top:10%;
+	left:0;
+}
+
+.project-summaries{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	/*position:relative;*/
+	/*background: yellow;*/
+	/*height:auto;*/
+
+}
+
+.project-summaries .container{
+	/*border-style: solid;
+	border-color: white;
+	border-width:thin;*/
+	padding: 2%;
+	/*padding-bottom:30%;*/
+	/*background:yellow;*/
+}
+
+.summary-content{
+	border-style: solid;
+	border-color: white;
+	border-width:thick;
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.summary-content h4{
+	color: white;
+	font-size: 0.8em;
+	font-weight: 900;
+}
+
+#tags h4{
+	width: 80%;
+	text-align:center;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+#blurb {
+	border-left-style:hidden;
+	border-right-style:hidden;
+}
+
+#blurb .medium-text{
+	color: white;
+	font-style: italic;
+	font-size: 1em !important;
+
+}
+
+
+
+.home-gallery {
+	width: 100%;
+	position:relative;
+	padding-top: 10%;
+	transition: all 0.9s ease;
+
+}
+
+.projectList {
+	width:50%;
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+	/*padding-top: 5%;*/
+	padding-left:20%;
+}
+
+.projectList h2{
+	text-align: justify;
+	font-family: 'Biryani', sans-serif;
+	font-size: 4em;
+	transition: all 0.9s ease;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 20px;
+
+	/*PINKY*/
+	/*color: #FF8A8A;*/
+	/*color: #F5DEBC;*/
+	/*color: #EDCF9B;*/
+	/*color: #FEDD9D;*/
+
+	/*GREY*/
+	/*color: #8F8B8B;*/
+
+	/*BLUES*/
+	/*color: #004FD6;*/
+	/*color: #0250d7;*/
+	/*color: #2022F1;*/
+	/*color: #0959FF;* USE FOR HIHG/
+	/*color: #2420C0;*/
+
+	/*color: #F09876;*/
+	color: #2900FF;
+	z-index: 700;
+
+}
+
+.projectList a{
+	text-decoration: none;
+	color: #2900FF;
+	transition: all 0.9s ease;
+}
+
+.projectList h2:hover{
+	border-style:solid;
+	border-width:thick;
+	border-color:##2900FF;
+	border-left-style: hidden;
+	border-right-style: hidden;
+}
+
+
+.header-image {
+	width: 100%;
+	height: 0px;
+	padding-bottom: 85%;
+	/*background-size: cover;*/
+	position: absolute;
+	/*top:0;*/
+	left:0;
+
+}
+
+.header-image img {
+	width: 100%;
+	height:85%;
+	/*height: 100%;*/
+	/*background-size: cover;*/
+	position: relative;
+
+}
+
+/*TESTING SOME SHIT
+
+PROJECTS PAGES
+
+*/
+
+.pad{
+	background-color: white;
+	padding-bottom:5%;
+}
+
+.large-pad{
+	height:50%;
+	padding-bottom:50%;
+}
+
+.project-container {
+
+	/*background-color: yellow;*/
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+
+}
+
+.project {
+	width:100%;
+	height: 100%;
+	position:relative;
+
+}
+
+
+.project-header-container {
+	width:100%;
+	height:70%;
+	position:relative;
+
+}
+
+.image-header {
+	background-image: url('../media/LB/img_01.JPG');
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: 50% 50%;
+	position: relative;
+	width:100%;
+	height: 100%;
+	overflow: hidden;
+	background-size: 160%;
+}
+
+.wrap-beats {
+		background-image: url('../media/WB/materials.png') !important;
+}
+
+.image-header .title-image-overlay{
+	/*font-size: 3.5em;*/
+	text-transform: uppercase;
+	letter-spacing: 30px;
+}
+
+
+.title-image-overlay {
+	font-weight:900;
+	color: white !important;
+	position:relative;
+}
+
+.project-content {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+.text-container{
+
+}
+
+#references-container{
+	width: 70%;
+	margin-left:auto;
+	margin-right:auto;
+	border-bottom-color: black;
+	border-bottom-width: thin;
+	border-bottom-style: double;
+}
+
+.subtitle-text {
+	font-size: 0.5em;
+	font-weight: 100;
+	font-style: italic;
+
+}
+
+.small-text {
+	width: 70%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: justify;
+	font-size: 0.8em;
+	font-weight: 100;
+
+}
+
+.small-text-title {
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center !important;
+	font-size: 0.5em!important;
+	font-weight: 700 !important;
+	letter-spacing: 10px;
+
+}
+
+.small-text-title a{
+		text-decoration: none !important;
+		color: black;
+		text-transform: uppercase;
+		transition: all 0.5s ease;
+		padding: 2%;
+		text-align: center;
+}
+
+.small-text-title a:hover{
+	background-color: #2900FF;
+	color: white;
+
+}
+
+.medium-text {
+	/*width:80%;
+	margin-left:auto;
+	margin-right:auto;*/
+	text-align: right;
+	font-size: 1em;
+	font-weight: 400 !important;
+	/*text-decoration: underline;*/
+	letter-spacing: 5px;
+	line-height: 30px;
+	text-transform: uppercase;
+
+	/*text-transform:full-width;*/
+
+	/*FONTS*/
+	/*weights 100, 300, 400 & 600 both in italics too*/
+	/*font-family: 'Josefin Slab', serif !important;*/
+	/*weights 400 & 900 both in italics too*/
+	font-family: 'Playfair Display', serif !important;
+}
+
+.image-container{
+	overflow:hidden;
+}
+
+.image-container img{
+	width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.image-container .text-container{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.page-break{
+	width:100%;
+	height: 40%;
+	overflow:hidden;
+}
+
+.page-break-image{
+	height:30%;
+}
+
+.page-break .title-image-overlay{
+	text-transform: uppercase;
+	letter-spacing: 30px;
+	/*padding-top: 10%;*/
+	color: #2900FF!important;
+	font-weight: 800 !important;
+	font-size: 3em;
+	width:100%;
+	text-align: center!important;
+}
+
+.page-break-image div{
+	height: 30%;
+}
+
+#the-boxes{
+	background-image: url('../media/LB/boxes.png');
+	/*opacity: 0.5;*/
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: 50% 80%;
+	position: relative;
+	width:100%;
+	height: 100%;
+	overflow: hidden;
+	background-size: 100%;
+}
+
+#the-system{
+	background-image: url('../media/LB/img_05.jpg');
+	/*opacity: 0.5;*/
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: 50% 80%;
+	position: relative;
+	width:100%;
+	height: 100%;
+	overflow: hidden;
+	background-size: 100%;
+}
+
+#wrap-beats-opening-text{
+
+}
+
+.video-container{
+	height:100%;
+	width:100%;
+	background-color:yellow;
+}
+
+.vimeo-container {
+        width: 100%;
+        height: 100%;
+}
+
+.vimeo-container iframe {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        }

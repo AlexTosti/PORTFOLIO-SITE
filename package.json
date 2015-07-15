@@ -1,0 +1,22 @@
+{
+  "name": "LUCYMATCHSPORTFOLIO",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "angular": "^1.4.0-rc.1",
+    "body-parser": "^1.5.2",
+    "express": "^4.0.0"
+  },
+  "devDependencies": {
+    "angular-animate": "^1.4.2",
+    "angular-aria": "^1.4.2",
+    "angular-material": "^0.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Lucy Matchett",
+  "license": "ISC"
+}

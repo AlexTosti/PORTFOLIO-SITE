@@ -1,0 +1,94 @@
+<div class="home-gallery" layout="column" layout-align="space-around start" ng-class="{homehoverstate: hover}">
+
+  <div class='projectList' ng-repeat="project in projects" flex>
+    <!-- ADDD THIS BACK TO HAVE THE HOVER BLUE BACKGROUND THING
+    ng-mouseover="viewSummary(project.id, true, $index)" ng-mouseleave="viewSummary(project.id, false, $index)" -->
+    <!--[{{$index + 1}}] -->
+    <a ui-sref="projects.{{project.id}}"><h2 >{{project.title}}</h2></a>
+<!--  -->
+  <!-- <h2>{{hover}}</h2> -->
+  </div>
+
+</div>
+
+
+
+
+<!-- <div ng-app="">
+  <h1>Ng-show & ng-hide</h1>
+  <p class="description">Click on the "show"-link to see the content.</p>
+  <a href="" ng-click="showme=true">Show</a>
+  <button ng-click="showme=false">Hide</button>
+
+  <div class="wrapper">
+    <p ng-hide="showme">It will appear here!</p>
+    <h2 ng-show="showme">This is mah content, yo!</h2>
+  </div>
+
+</div>   -->
+
+<div class="homehovercontent" ng-show="showSummary">
+  <div class="project-summaries" layout="row" layout-align="space-around end" >
+
+    <div class="container" flex='33'>
+
+      <div class='summary-content' id='tags'>
+        <h4 ng-repeat="tag in tags">{{tag}}</h4>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="project-summaries" layout="row" layout-align="space-around end" >
+
+    <div class="container" flex="20">
+      <div class='image-container'>
+        <img src='{{img01}}'>
+      </div>
+    </div>
+
+    <div class="container" flex>
+
+    </div>
+
+    <div class="container" flex="50">
+
+      <div class='summary-content' id='blurb'>
+        <div class='text-container'>
+
+          <p class="medium-text">
+            {{blurb}}
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="project-summaries" layout="row" layout-align="space-around end" >
+
+    <div class="container" flex="50" >
+
+    </div>
+
+    <div class="container" flex >
+
+      <div class='summary-content'>
+
+      </div>
+
+    </div>
+
+    <div class="container" flex >
+
+      <div class='summary-content'>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
