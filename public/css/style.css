@@ -288,7 +288,7 @@ PROJECTS PAGES
 }
 
 .image-header {
-	background-image: url('../media/LB/img_01.JPG');
+	background-image: url('http://media.lucymatch.com/LB/img_01.JPG');
 	background-size: cover;
 	background-repeat:no-repeat;
 	background-position: 50% 50%;
@@ -300,7 +300,7 @@ PROJECTS PAGES
 }
 
 .wrap-beats {
-		background-image: url('../media/WB/materials.png') !important;
+		background-image: url('http://media.lucymatch.com/WB/materials.png') !important;
 }
 
 .image-header .title-image-overlay{
@@ -441,7 +441,7 @@ PROJECTS PAGES
 }
 
 #the-boxes{
-	background-image: url('../media/LB/boxes.png');
+	background-image: url('http://media.lucymatch.com/LB/boxes.png');
 	/*opacity: 0.5;*/
 	background-size: cover;
 	background-repeat:no-repeat;
@@ -454,7 +454,7 @@ PROJECTS PAGES
 }
 
 #the-system{
-	background-image: url('../media/LB/img_05.jpg');
+	background-image: url('http://media.lucymatch.com/LB/img_05.jpg');
 	/*opacity: 0.5;*/
 	background-size: cover;
 	background-repeat:no-repeat;

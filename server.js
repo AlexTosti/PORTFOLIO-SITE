@@ -21,4 +21,4 @@ server.listen(port, function() {
 
 //TELL EM WHERE TO GET SHIT
 app.use('/', express.static(__dirname + '/public'));
-app.use('/media', express.static(__dirname + '/public/media'));
+// app.use('/media', express.static(__dirname + '/public/media'));
