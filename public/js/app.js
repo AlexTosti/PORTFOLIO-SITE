@@ -4,7 +4,8 @@ angular.module('myApp', ['ui.router',
 'app.router',
 'app.controller.home',
 'app.controller.home.gallery',
-'app.controller.project'
+'app.controller.project',
+'ngTouch'
 
 ])
 

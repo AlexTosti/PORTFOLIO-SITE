@@ -1,3 +1,18 @@
+/*
+//////////////////////////////////////////
+////////////// G E N E R A L  S T Y L I N G
+
+*/
+
+.hide_mobile{
+	display: block !important;
+}
+
+.show_mobile{
+	display: none;
+}
+
+
 body, p{
 	font-family: 'Biryani', sans-serif !important;
 	/*FONTS*/
@@ -5,46 +20,6 @@ body, p{
 	/*font-family: 'Josefin Slab', serif;*/
 	/*weights 400 & 900 both in italics too*/
 	/*font-family: 'Playfair Display', serif;*/
-}
-
-header {
-	height: 10%;
-	width: 100%;
-	position: fixed;
-	z-index: 1000;
-	/*background-color: white;*/
-	top:0;
-	left:0;
-
-}
-
-header h1 {
-
-	font-family: 'Biryani', sans-serif;
-	font-size: 4em;
-	transition: all 0.9s ease;
-	font-weight: 600;
-	letter-spacing: 20px;
-	/*background: black;*/
-}
-
-header a {
-	text-decoration: none;
-	color: black;
-}
-
-header h4{
-
-	font-family: 'Biryani', sans-serif;
-	font-size: 0.5em;
-	font-weight: 100;
-
-}
-
-.header-container {
-	height:100%;
-	width:100%;
-	position:relative;
 }
 
 /*WHERE ALL HTML GOES ETC MAIN TEMPLATE HOLDER :)*/
@@ -74,6 +49,153 @@ header h4{
 	position: relative;
 	left:0;
 }
+
+/*
+//////////////////////////////////////////
+////////////// H E A D E R
+
+*/
+
+header {
+	/*height: 30%;*/
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+	/*background-color: yellow;*/
+	/*top:0;
+	left:0;*/
+
+}
+
+header h1 {
+
+	font-family: 'Biryani', sans-serif;
+	font-size: 4em;
+	transition: all 0.9s ease;
+	font-weight: 600;
+	letter-spacing: 20px;
+	background-color: #2900FF;
+	color: white;
+}
+
+header a {
+	text-decoration: none;
+	color: black;
+}
+
+header h4{
+
+	font-family: 'Biryani', sans-serif;
+	font-size: 0.5em;
+	font-weight: 100;
+
+}
+
+.header-container {
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+
+header h2{
+	font-family: 'Biryani', sans-serif;
+	font-size: 1em;
+	transition: all 0.9s ease;
+	font-weight: 600;
+	letter-spacing: 20px;
+	background-color: #2900FF;
+	color: white;
+}
+
+header h2:hover{
+	background-color: white;
+	color: #2900FF;
+}
+
+header a{
+	text-decoration: none;
+
+}
+
+/*
+//////////////////////////////////////////
+////////////// FOOOT E R
+
+*/
+
+/*PHONE MENU!*/
+
+footer {
+
+	/*position:fixed;
+	background-color:yellow;
+	height:11%;
+	top:89.5%;
+	width:100%;
+	border-top-style:outset;
+	border-top-color: white;
+	border-top-width: thick;
+	z-index:1001;*/
+}
+
+
+footer a{
+	height: 120%;
+	text-decoration:none;
+	color: #2900FF;
+
+}
+
+footer h1{
+	font-size: 4em;
+	font-weight: 900;
+	letter-spacing: 20px;
+	/*transition: all 0.9s ease;*/
+	background-color: white;
+
+}
+
+footer h1:ng-click-active{
+	background-color:#2900FF;
+}
+
+footer h2{
+	font-size: 1.7em;
+	font-weight: 600;
+	padding-left: 2%;
+	padding-right:2%;
+	letter-spacing: 5px;
+	background-color: white;
+
+}
+
+footer h2:ng-click-active{
+	background-color:#2900FF;
+	color: white;
+}
+
+.footer-container{
+	position:fixed;
+	background-color:white;
+	/*height:15%;*/
+	bottom:0%;
+	left:0;
+	width:100%;
+	overflow:hidden;
+	border-top-style:solid;
+	border-top-color: #2900FF;
+	border-top-width: medium;
+	z-index:1000;
+	text-align: center;
+}
+
+
+
+/*
+//////////////////////////////////////////
+////////////// H O M E
+
+*/
 
 .home {
 	background-color: white;
@@ -224,6 +346,12 @@ header h4{
 	border-right-style: hidden;
 }
 
+/*
+//////////////////////////////////////////
+////////////// P R O J E C T S  U N I V E R S A L
+
+*/
+
 
 .header-image {
 	width: 100%;
@@ -233,17 +361,10 @@ header h4{
 	position: absolute;
 	/*top:0;*/
 	left:0;
+	overflow:hidden;
 
 }
 
-.header-image img {
-	width: 100%;
-	height:85%;
-	/*height: 100%;*/
-	/*background-size: cover;*/
-	position: relative;
-
-}
 
 /*TESTING SOME SHIT
 
@@ -282,10 +403,12 @@ PROJECTS PAGES
 
 .project-header-container {
 	width:100%;
-	height:70%;
+	height:50%;
 	position:relative;
 
 }
+
+/*//LITTLE BOXES*/
 
 .image-header {
 	background-image: url('http://media.lucymatch.com/LB/img_01.JPG');
@@ -298,6 +421,10 @@ PROJECTS PAGES
 	overflow: hidden;
 	background-size: 160%;
 }
+
+/*
+WRAP BEATS
+*/
 
 .wrap-beats {
 		background-image: url('http://media.lucymatch.com/WB/materials.png') !important;
@@ -487,3 +614,218 @@ PROJECTS PAGES
         width: 100%;
         height: 100%;
         }
+
+
+
+/*
+/////////////// PHONE STUFFFFFF
+*/
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+		.header-container{
+			display: none !important;
+		}
+
+		.footer-container{
+			display:block !important;
+		}
+
+		footer {
+			position:fixed;
+			background-color:yellow;
+			height:11%;
+			bottom:0;
+			width:100%;
+			border-top-style:outset;
+			border-top-color: white;
+			border-top-width: thick;
+			z-index:1001;
+		}
+
+		.project-header-container {
+			height: 25% !important;
+		}
+
+		.sub-header-image-container, .horizontal-pad, .pad{
+			display: none !important;
+		}
+
+
+		.medium-text, .small-text{
+					padding-left: 5%;
+					padding-right: 5%;
+					text-align:justify;
+					font-size: 3em !important;
+					font-family: 'Biryani', sans-serif !important;
+					letter-spacing: normal;
+					line-height: normal;
+					font-weight: 200;
+		}
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+		.header-container{
+			display: none !important;
+		}
+
+		.footer-container{
+			display:block !important;
+		}
+
+		footer {
+			position:fixed;
+			background-color:yellow;
+			height:11%;
+			bottom:0;
+			width:100%;
+			border-top-style:outset;
+			border-top-color: white;
+			border-top-width: thick;
+			z-index:1001;
+		}
+
+		.project-header-container {
+			height: 25% !important;
+		}
+
+		.sub-header-image-container, .horizontal-pad{
+			display: none !important;
+		}
+
+		.medium-text, .small-text{
+					padding-left: 5%;
+					padding-right: 5%;
+					text-align:justify;
+					font-size: 3em !important;
+					font-family: 'Biryani', sans-serif !important;
+					letter-spacing: normal;
+					line-height: normal;
+					font-weight: 200;
+		}
+
+
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+		.header-container{
+			display: none !important;
+		}
+
+		.footer-container{
+			display:block !important;
+		}
+
+		footer {
+			position:fixed;
+			background-color:yellow;
+			height:11%;
+			bottom:0;
+			width:100%;
+			border-top-style:outset;
+			border-top-color: white;
+			border-top-width: thick;
+			z-index:1001;
+		}
+
+		.project-header-container {
+			height: 25% !important;
+		}
+
+		.sub-header-image-container, .horizontal-pad{
+			display: none !important;
+		}
+
+		.medium-text, .small-text{
+					padding-left: 5%;
+					padding-right: 5%;
+					text-align:justify;
+					font-size: 3em !important;
+					font-family: 'Biryani', sans-serif !important;
+					letter-spacing: normal;
+					line-height: normal;
+					font-weight: 200;
+		}
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+
+}
