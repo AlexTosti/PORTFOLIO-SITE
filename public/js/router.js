@@ -30,6 +30,16 @@ angular.module('app.router', [])
     })
 
     //ACTUAL PROJECT PAGES
+
+    //TROPE
+    /////////////////////////////////
+    .state('projects.trope', {
+      url: '{parent}/trope',
+      templateUrl: 'views/projects/trope.html',
+      controller: 'ProjectCtrl'
+    })
+
+
     //LITTLEBOXESSSSS
     /////////////////////////////////
     .state('projects.littleboxes', {
@@ -54,7 +64,7 @@ angular.module('app.router', [])
       controller: 'ProjectCtrl'
     })
 
-    //WRAAAAAAAP BEATZ
+    //TRANSPORT SYSTEM
     /////////////////////////////////
     .state('projects.UPT', {
       url: '{parent}/unified-transport',

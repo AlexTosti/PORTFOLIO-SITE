@@ -1,11 +1,8 @@
-<div class="home-gallery" layout="column" layout-align="space-around start" ng-class="{homehoverstate: hover}">
+<div class="home-gallery" layout="column" layout-align="space-around start">
 
   <div class='projectList' ng-repeat="project in projects" flex>
-    <!-- ADDD THIS BACK TO HAVE THE HOVER BLUE BACKGROUND THING
-    ng-mouseover="viewSummary(project.id, true, $index)" ng-mouseleave="viewSummary(project.id, false, $index)" -->
-    <!--[{{$index + 1}}] -->
-    <a ui-sref="projects.{{project.id}}"><h2 >{{project.title}}</h2></a>
-  <!-- <h2>{{hover}}</h2> -->
+    <a ui-sref="projects.{{project.id}}"><h2>{{project.title}}</h2></a>
+
   </div>
 
 </div>
