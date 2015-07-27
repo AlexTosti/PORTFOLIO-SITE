@@ -5,6 +5,7 @@
   "main": "server.js",
   "dependencies": {
     "angular": "^1.4.0-rc.1",
+    "angular-bootstrap-lightbox": "^0.6.1",
     "body-parser": "^1.5.2",
     "express": "^4.0.0"
   },
