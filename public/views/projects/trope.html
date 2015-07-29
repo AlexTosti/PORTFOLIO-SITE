@@ -7,8 +7,8 @@
 
 </div>
 
-<div layout="column" class="project-subheader-container">
-  <md-whiteframe class="md-whiteframe-z1" ng-click="QnD = !QnD">
+<div layout="row" class="project-subheader-container">
+  <md-whiteframe class="md-whiteframe-z1" ng-click="QnD = !QnD" flex>
 
     <div layout="row" layout-align="space-around end">
 
@@ -20,8 +20,8 @@
 
     </div>
 
-      <div ng-show="QnD" layout="row" layout-sm="column" layout-align="space-around start" layout-fill>
-        <div flex='50'>
+      <div ng-show="QnD" layout="row" layout-sm="column" layout-align-sm="space-around center" layout-align="space-around center" layout-fill layout-padding>
+        <div flex='50' flex-sm="100">
           <marked>
           >Trope is a part of a collection of inventive, engaging, and uniquely purposeful web experiences
           >that were built to bring to life and showcase a larger research thesis,
@@ -43,7 +43,7 @@
           </marked>
         </div>
 
-        <div flex="15">
+        <div flex="15"  flex-sm="100">
           <marked>
             #### _links_
             ---
@@ -63,7 +63,7 @@
           </marked>
         </div>
 
-        <div flex="15">
+        <div flex="15"  flex-sm="100">
           <marked>
             #### _created by_
             ---
@@ -80,14 +80,17 @@
 
 <!-- END OF PROJECT HEADER -->
 
-<div class="project-content two-column-container" layout="row" layout-align="space-around center" layout-padding layout-fill layout-margin>
-  <div flex class="main">
-    <marked>
+<!-- <div class="project-content two-column-container" layout="row" layout-sm="column" layout-align="space-around center" layout-padding layout-margin>
+
+  <div flex="50" class="main" layout="row" layout-align="space-around start">
+    <marked flex="95" hide-sm>
       # _TROPE _
     </marked>
+
+    <div hide-sm class="vertical-pad-fill" flex="5"></div>
   </div>
 
-  <div flex>
+  <div flex="50" flex-sm="100">
     <marked>
       >Trope offers a dynamic, non-passive viewing experience for users.
 
@@ -99,6 +102,202 @@
       >a unique and more interactive way of viewing video-like
       >content online.
 
+    </marked>
+  </div>
+
+</div> -->
+
+<div class="project-content two-row-container" layout="column" layout-sm="column" layout-align="end" layout-padding layout-margin>
+
+  <div flex="100" class="main">
+    <marked hide-sm>
+      # _TROPE _
+    </marked>
+  </div>
+
+  <div flex="100" flex-sm="100" class='text' layout="row">
+    <div flex offset-gt-sm="50" offset-sm="0">
+    <marked>
+      >Trope offers a dynamic, non-passive viewing experience for users.
+
+      >This web experience was built with the goal of giving both
+      >producer and audience more control in their ability to
+      >leverage the Internet to share their knowledge. By
+      >converting video files to a frame by frame experience that
+      >the viewer can very easily scroll through Trope provides
+      >a unique and more interactive way of viewing video-like
+      >content online.
+
+      ---
+
+
+    </marked>
+  </div>
+  </div>
+
+</div>
+
+<!-- END OF PROJECT SUB HEADER -->
+
+<div class="project-content image-and-text-container" layout="column" layout-align="space-around center" layout-wrap layout-padding layout-margin >
+
+<div layout="row" layout-wrap layout-align="center center">
+
+  <div flex="20" flex-sm="100">
+    <marked>
+      >Trope takes a video file and converts it into a series
+      >of image files, frame by frame. Each frame is then placed as
+      >full size image filling up the browser window.
+
+    </marked>
+  </div>
+
+  <div flex="50" flex-sm="100">
+    <a ng-click="openLightboxModal(29)">
+      <img ng-src="{{trope.images[29].url}}">
+    </a>
+    <!-- <marked>
+      ![Alt text](http://media.lucymatch.com/TR/gifs/trope-clean-and-simple-bury.gif "BURY")
+    </marked> -->
+  </div>
+
+</div>
+
+<div layout="row" layout-align="space-around center" layout-sm="column" >
+
+  <div flex="40" flex-sm="100">
+    <a ng-click="openLightboxModal(22)">
+      <img ng-src="{{trope.images[22].url}}">
+    </a>
+    <!-- <marked>
+      ![Alt text](http://media.lucymatch.com/TR/gifs/free-throw-scroll-2.gif "BURY")
+    </marked> -->
+  </div>
+
+  <div flex="50" flex-sm="100">
+    <marked>
+      >As the user
+      >scrolls, the length of the scroll is directly matched to a
+      >frame in the video. So, as the user scrolls down, the frames
+      >move forward, and as the user scrolls back up, the frames
+      >move backwards, all in direct relation to the speed of the
+      >scroll.
+    </marked>
+  </div>
+
+</div>
+
+<div flex="100" flex-sm="100" class="alt-text">
+  <marked>
+     >_Currently the most common interaction when viewing
+     >media, like videos or gifs, allows little to no control. A gif
+     >is very passive, while a video gives you the ability to play,
+     >stop, or pause_
+
+     ---
+
+
+  </marked>
+</div>
+
+<div layout="row" layout-align="center end" layout-wrap>
+
+  <div flex="30" flex-sm="100">
+    <marked>
+      >With Trope you must
+      >actively scroll to move the frames forward or backward. This
+      >interaction gives the user complete control over how they
+      >watch the content, at what part to start, how fast or slow
+      >they scroll through, or which parts they want to re-watch.
+      >Giving a more experiential
+      >control to the user, providing much more agency and thus
+      >a stronger ability to watch the content how they want to
+      >watch it.
+
+    </marked>
+  </div>
+
+  <div flex="25" flex-sm="100">
+    <a ng-click="openLightboxModal(28)">
+      <img ng-src="{{trope.images[28].url}}">
+    </a>
+    <!-- <marked>
+      ![Alt text](http://media.lucymatch.com/TR/gifs/scroll-eye2.gif "BURY")
+    </marked> -->
+  </div>
+
+</div>
+
+<!-- IDEATION -->
+
+<div class="project-content two-column-container" layout="row" layout-sm="column" layout-align="space-around center" layout-padding layout-margin>
+
+  <div flex="50" class="main" layout="row" layout-align="space-around start">
+    <marked flex="95" hide-sm>
+      # _IDEATION _
+    </marked>
+
+    <div hide-sm class="vertical-pad-fill" flex="5"></div>
+  </div>
+
+  <div flex="50" flex-sm="100">
+    <marked>
+      >Trope is a part of a collection of inventive, engaging, and uniquely purposeful web experiences that were built to bring to life and showcase a larger research thesis, The Manifesto for Meaning, conducted by Alex Tosti and myself.
+
+      >The Manifesto for Meaning was the culmination of a year of research, case studies and experimental builds to create a design manifesto that encourages meaningful web design.
+
+      >The goal of The Manifesto for Meaning is first to critically analyse the effects of speed and ease orientated nature of current web design. Secondly, to implement our conclusions into a design manifesto that illustrates alternative ways of thinking about the online space and expands on the limitations of current design.
+
+    >  __With Trope Alex and myself were focused on creating an
+    >  experience that leverages what makes film and video so amazing, especially in an online envrionment,
+    >  whilst enhancing how a viewer can understand and recieve the content.__
+    </marked>
+  </div>
+
+</div>
+
+<!-- END OF IDEATION HEADER -->
+
+<!-- <div class="project-content image-and-text-container" layout="column" layout-align="center center" layout-wrap>
+
+
+  <div layout="row" layout-wrap layout-align="space-around center" layout-fill>
+
+    <div flex="33">
+      <marked>
+        >Brainstorm blah blah blah
+        >Brainstorm blah blah blah
+        >Brainstorm blah blah blah
+
+      </marked>
+    </div>
+
+    <div flex="50" flex-sm="100">
+
+
+    </div>
+
+  </div>
+
+</div> -->
+
+<!-- IDEATION -->
+
+<div class="project-content two-column-container" layout="row" layout-sm="column" layout-align="space-around center" layout-padding layout-margin>
+
+  <div flex="50" class="main" layout="row" layout-align="space-around start">
+    <marked flex="95" hide-sm>
+      # _PROTOTYPES _
+    </marked>
+
+    <div hide-sm class="vertical-pad-fill" flex="5"></div>
+  </div>
+
+  <div flex="50" flex-sm="100">
+    <marked>
+    >  __With Trope Alex and myself were focused on creating an
+    >  experience that leverages what makes film and video so amazing, especially in an online envrionment,
+    >  whilst enhancing how a viewer can understand and recieve the content.__
     </marked>
   </div>
 
