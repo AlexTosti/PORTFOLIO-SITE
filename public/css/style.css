@@ -350,11 +350,19 @@ PROJECTS PAGES
 	font-size: 2em;
 	text-align: right;
 	word-wrap: break-word;
+<<<<<<< HEAD
 	border-color: rgba(42, 0, 255, 1);
 	border-style:solid;
 	border-width:30px;
 	border-left: hidden;
 	border-right:hidden;
+=======
+	/*border-color: rgba(42, 0, 255, 1);
+	border-style:solid;
+	border-width:30px;
+	border-left: hidden;
+	border-right:hidden;*/
+>>>>>>> 01a23ef7d10512ced8a554f5c296bd4fe36912cc
 	/*background-color: rgba(42, 0, 255, 0.5);*/
 }
 
@@ -366,6 +374,7 @@ PROJECTS PAGES
 	padding-right:2%;
 }*/
 
+<<<<<<< HEAD
 .image-and-text-container img{
 	width:100%;
 }
@@ -380,6 +389,120 @@ PROJECTS PAGES
 	/*position:relative;
 	padding-bottom:40%;*/
 
+=======
+.two-row-container{
+	width: 100%;
+	/*height: 100%;*/
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+}
+
+.two-row-container h1{
+	font-size: 3em;
+	text-align: center;
+	height: 30px;
+	/*padding-right:5%;
+	border-right-color: rgba(42, 0, 255, 1);
+	border-right-style:solid;
+	border-right-width:thick;*/
+}
+
+.two-row-container blockquote p{
+	font-size: 0.7em !important;
+	/*text-align: left;*/
+	/*letter-spacing: 10px;*/
+	font-weight:100;
+/*
+	border-left-color: rgba(42, 0, 255, 1);
+	border-left-style:solid;
+	border-left-width:thick;*/
+}
+
+.two-row-container .main{
+	font-size: 2em;
+	text-align: right;
+	word-wrap: break-word;
+	/*border-color: rgba(42, 0, 255, 1);
+	border-style:solid;
+	border-width:30px;
+	border-left: hidden;
+	border-right:hidden;*/
+	/*background-color: rgba(42, 0, 255, 0.5);*/
+}
+
+.two-row-container .text {
+	/*width: 40%;*/
+}
+
+.two-row-container .text p{
+	text-align: justify;
+}
+
+.image-and-text-container div{
+	padding-bottom: 20%;
+}
+
+.image-and-text-container img{
+	width:100%;
+	padding-bottom: 10%!important;
+}
+
+.image-and-text-container blockquote p{
+	text-align: right;
+}
+
+.image-and-text-container p em{
+	text-align: left;
+	font-size: 1.5em !important;
+	font-weight:300;
+	background: yellow;
+}
+
+.image-and-text-container blockquote p em{
+	font-size: 1em !important;
+	font-weight: 200 !important;
+	background: transparent;
+}
+
+.image-and-text-container blockquote p strong{
+	font-size: 1.2em !important;
+	font-weight: 600 !important;
+	background: transparent;
+}
+
+.thumb-gal div{
+	border-style: solid;
+	border-width: medium;
+	border-color: yellow;
+}
+
+.thumb-gal div:hover{
+	border-style: solid;
+	border-width: medium;
+	border-color: yellow;
+	background: yellow;
+}
+
+.rhs-text blockquote p {
+	text-align: left !important;
+}
+
+.sub-title-container .main{
+	background-color: yellow;
+}
+
+.sub-title-container h1 {
+    text-align: justify;
+    background: #FF0 none repeat scroll 0% 0% / cover;
+    font-size: 8em;
+    height: 20px;
+	}
+
+.sub-title-container blockquote em {
+	text-align:left;
+>>>>>>> 01a23ef7d10512ced8a554f5c296bd4fe36912cc
 }
 
 /*THE QUICK AND DIRTY SECTION*/
@@ -406,6 +529,7 @@ PROJECTS PAGES
 
 .project-subheader-container h3:hover{
 	background-color: rgba(42, 0, 255, 0.7) !important;
+<<<<<<< HEAD
 }
 
 
@@ -428,6 +552,30 @@ PROJECTS PAGES
 	position: relative;
 }
 
+=======
+}
+
+
+/*LIGHTBOX*/
+.modal-body {
+	background-color: rgba(42, 0, 255, 1) !important;
+}
+
+.close{
+	background: transparent;
+}
+
+.lightbox-nav{
+	padding-bottom:6%;
+	position: relative;
+}
+
+.btn-group {
+	width: 100%;
+	position: relative;
+}
+
+>>>>>>> 01a23ef7d10512ced8a554f5c296bd4fe36912cc
 .nav-btns{
 	width:100%;
 	height:100%;
@@ -507,10 +655,18 @@ WRAP BEATS
 }
 
 .project-content {
+<<<<<<< HEAD
 	width:100%;
 	margin-left:auto;
 	margin-right:auto;
 	position: relative;
+=======
+	width:80%;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	position: relative;
+	padding-bottom: 5%!important;
+>>>>>>> 01a23ef7d10512ced8a554f5c296bd4fe36912cc
 }
 
 .text-container{
