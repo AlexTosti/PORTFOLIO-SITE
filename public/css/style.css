@@ -409,7 +409,15 @@ PROJECTS PAGES
 }
 
 .two-row-container .text {
-	width: 100%;
+	/*width: 40%;*/
+}
+
+.two-row-container .text p{
+	text-align: justify;
+}
+
+.image-and-text-container div{
+	padding-bottom: 20%;
 }
 
 .image-and-text-container img{
@@ -417,21 +425,59 @@ PROJECTS PAGES
 	padding-bottom: 10%!important;
 }
 
-.image-and-text-container p{
+.image-and-text-container blockquote p{
 	text-align: right;
 }
 
-.image-and-text-container .alt-text p{
-	font-size: 1em !important;
-	font-weight: 200 !important;
+.image-and-text-container p em{
+	text-align: left;
+	font-size: 1.5em !important;
+	font-weight:300;
+	background: yellow;
 }
 
-.img-gallery{
-	background-size:cover;
-	padding-bottom:50%;
-	/*position:relative;
-	padding-bottom:40%;*/
+.image-and-text-container blockquote p em{
+	font-size: 1em !important;
+	font-weight: 200 !important;
+	background: transparent;
+}
 
+.image-and-text-container blockquote p strong{
+	font-size: 1.2em !important;
+	font-weight: 600 !important;
+	background: transparent;
+}
+
+.thumb-gal div{
+	border-style: solid;
+	border-width: medium;
+	border-color: yellow;
+}
+
+.thumb-gal div:hover{
+	border-style: solid;
+	border-width: medium;
+	border-color: yellow;
+	background: yellow;
+}
+
+.rhs-text blockquote p {
+	text-align: left !important;
+}
+
+.sub-title-container .main{
+	background-color: yellow;
+}
+
+.sub-title-container h1 {
+    text-align: justify;
+    background: #FF0 none repeat scroll 0% 0% / cover;
+    font-size: 8em;
+    height: 20px;
+	}
+
+.sub-title-container blockquote em {
+	text-align:left;
 }
 
 /*THE QUICK AND DIRTY SECTION*/
